@@ -1,0 +1,29 @@
+.product-list {
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-around;
+    
+  }
+}
+
+.producto {
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px 1px deepskyblue;
+  background-color: deepskyblue;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  margin-top: 20px;
+  width: 15%;
+  transition: .3s ease all;
+  
+  &:hover {
+    box-shadow: 0px 0px 10px 1px dodgerblue;
+    background-color: dodgerblue;
+
+  }
+}

@@ -1,0 +1,61 @@
+.product-form {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 20px;
+    width: 40%;
+
+    .label {
+      text-align: left;
+      
+    }
+
+    .input {
+      border: 2px solid deepskyblue;
+      outline: none;
+      border-radius: 2px;
+      transition: .3s ease all;
+      padding: 10px;
+      color: dodgerblue;
+      font-size: 20px;
+
+      &:hover {
+        border: 2px solid dodgerblue;
+
+      }
+
+      &:focus {
+        border: 2px solid dodgerblue;
+        box-shadow: 0px 0px 2px 0px deepskyblue;
+      }
+
+    }
+  }
+
+  &__button button{
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid deepskyblue;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+    outline: none;
+    transition: .3s ease all;
+    
+    &:hover {
+      background-color: deepskyblue;
+      border: 1px solid dodgerblue;
+
+    }
+  }
+
+}

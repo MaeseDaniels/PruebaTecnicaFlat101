@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: deepskyblue;
+
+  &__button a {
+    display: flex;
+    padding: 20px 20px;
+    cursor: pointer;
+    transition: .3s ease all;
+    text-decoration: none;
+    color: white;
+    user-select: none;
+
+    &:hover {
+      background-color: dodgerblue;
+
+    }
+  }
+}
